@@ -10,7 +10,7 @@ public class HelloController {
 	
 	@GetMapping
 	public String getMessage() {
-		return "Hello from Sprin Boot !!";
+		return "Hello from Sprin Boot Using CICD pipeline!!";
 	}
 
 }
